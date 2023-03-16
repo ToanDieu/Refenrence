@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkflowForm /> should render the form 1`] = `
+.emotion-0 {
+  text-align: center;
+}
+
+.emotion-0 p {
+  margin: 12px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <p />
+    <div>
+      <button
+        class="el-button el-button--primary"
+        type="button"
+      >
+        <span />
+      </button>
+    </div>
+  </div>
+  <div>
+    <div
+      class="el-dialog__wrapper"
+      style="z-index: 1013; display: none;"
+    >
+      <div
+        class="el-dialog el-dialog--tiny"
+        style="top: 15%;"
+      >
+        <div
+          class="el-dialog__header"
+        >
+          <span
+            class="el-dialog__title"
+          />
+          <button
+            class="el-dialog__headerbtn"
+            type="button"
+          >
+            <i
+              class="el-dialog__close el-icon el-icon-close"
+            />
+          </button>
+        </div>
+        <div
+          class="el-dialog__body"
+        >
+          <form
+            class="el-form el-form--label-top"
+          >
+            <div
+              class="el-form-item is-required"
+            >
+              <div
+                class="el-form-item__content"
+              >
+                <div
+                  class="el-input"
+                >
+                  <input
+                    autocomplete="off"
+                    class="el-input__inner"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-form-item"
+            >
+              <div
+                class="el-form-item__content"
+              >
+                <div
+                  class="el-input"
+                >
+                  <input
+                    autocomplete="off"
+                    class="el-input__inner"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          class="el-dialog__footer dialog-footer"
+        >
+          <button
+            class="el-button el-button--primary"
+            type="submit"
+          >
+            <span />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-modal"
+      style="z-index: 1012; display: none;"
+    />
+  </div>
+</div>
+`;

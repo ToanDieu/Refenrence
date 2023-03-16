@@ -1,0 +1,25 @@
+@import "~@/assets/style/default/variables";
+
+.footer {
+  color: $warm-gray;
+  align-items: center;
+  text-align: center;
+  font-family: Gotham;
+  font-size: 12px;
+  line-height: 14px;
+  width: 100%;
+  background-color: $light-gray;
+  position: absolute;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+  p {
+    padding: 2px 0;
+  }
+}
+
+.footer__versions {
+  display: flex;
+  justify-content: center;
+  color: #bdbdbd;
+}

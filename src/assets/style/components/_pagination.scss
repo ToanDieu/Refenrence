@@ -1,0 +1,45 @@
+.pagination {
+  padding: 10px
+}
+
+.pagination-item {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.pagination_text_dropdown {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 3px;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #1e5a6e;
+}
+
+.pagination_text_dropdown b {
+  font-weight: bold;
+}
+
+
+.pagination_dropdown {
+  width: 70px;
+  height: 30px
+}
+
+//Embedded storybook lib.
+[class^="dropdown_wrapper__top"] {
+  height: 30px;
+}
+
+[class^="dropdown_wrapper__dropdown"] {
+  margin-top: 30px;
+}
+
+[class^="dropdown_wrapper__top__outer"] {
+  text-align: center;
+}

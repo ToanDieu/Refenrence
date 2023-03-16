@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActivateForm /> should render the form 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 .tseicon {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.emotion-0 ul {
+  list-style: initial;
+  padding-left: 20px;
+}
+
+.emotion-0 ul li {
+  margin-bottom: 20px;
+}
+
+.emotion-0 p {
+  padding-left: 20px;
+}
+
+.emotion-1 {
+  text-transform: uppercase;
+}
+
+.emotion-3 {
+  vertical-align: top;
+  margin-right: 12px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.emotion-3 .tseicon {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 14px;
+  margin-right: 7px;
+  opacity: 0.5;
+}
+
+<div>
+  <div>
+    <div
+      class="el-dialog__wrapper"
+      style="z-index: 1013; display: none;"
+    >
+      <div
+        class="el-dialog el-dialog--small"
+        style="top: 15%;"
+      >
+        <div
+          class="el-dialog__header"
+        >
+          <span
+            class="el-dialog__title"
+          />
+          <button
+            class="el-dialog__headerbtn"
+            type="button"
+          >
+            <i
+              class="el-dialog__close el-icon el-icon-close"
+            />
+          </button>
+        </div>
+        <div
+          class="el-dialog__body"
+        >
+          <div
+            class="emotion-0"
+          >
+            <i
+              class=" tseicon tseicon-warning"
+              css="[object Object]"
+            />
+            <div>
+              <ul>
+                <li>
+                  You won’t be able to add triggers or actions when the automation is active.
+                </li>
+                <li>
+                  You won’t be able to deactivate the workflow
+                </li>
+              </ul>
+              <p>
+                Do you want to activate the automation?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="el-dialog__footer dialog-footer"
+        >
+          <button
+            class="el-button el-button--default emotion-1"
+            type="button"
+          >
+            <span />
+          </button>
+          <button
+            class="el-button el-button--primary emotion-1"
+            type="submit"
+          >
+            <span />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-modal"
+      style="z-index: 1012; display: none;"
+    />
+  </div>
+  <button
+    class="el-button el-button--primary emotion-3"
+    type="button"
+  >
+    <span />
+  </button>
+</div>
+`;

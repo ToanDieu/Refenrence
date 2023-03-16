@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // "declaration": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "target": "es2015",
+    "module": "es2015",
+    "lib": ["es2016", "dom"],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "jsx": "react",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["react", "react-dom"],
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true
+  },
+  "include": ["./src/**/*", "./tests/**/*", "@types"],
+  "exclude": ["node_modules", "dist"]
+}

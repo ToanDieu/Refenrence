@@ -1,0 +1,1 @@
+export const LOAD_BASE_PARAMS_SUCCESS = "tse/params/LOAD_BASE_PARAMS_SUCCESS";

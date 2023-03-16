@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> should disable active button if workflow is activated 1`] = `null`;
+
+exports[`<PageHeader /> should render the header within active button & the mode dropdown 1`] = `
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.emotion-0 {
+  font-size: 22px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.emotion-2 {
+  display: inline-block;
+}
+
+<div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-1"
+    >
+      <span
+        class="emotion-0"
+      >
+        My test workflow
+      </span>
+      <span />
+    </div>
+    <div>
+      <div
+        class="emotion-2"
+        role="presentation"
+      >
+        <div
+          css="[object Object]"
+        >
+          <div
+            role="presentation"
+          >
+            Edit Mode
+          </div>
+          <div
+            role="presentation"
+          >
+            View Mode
+          </div>
+        </div>
+        <span>
+          Edit Mode
+           
+          <div
+            css="[object Object]"
+          >
+            <span
+              class="icon-chevron-down"
+            />
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PageHeader /> should render the header without active button & the mode dropdown 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.emotion-0 {
+  font-size: 22px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+<div>
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-1"
+    >
+      <span
+        class="emotion-0"
+      >
+        My test workflow
+      </span>
+      <span />
+    </div>
+    <div />
+  </div>
+</div>
+`;

@@ -1,0 +1,32 @@
+.container,
+.container-fluid,
+.container-lg,
+.container-wide,
+.container-xl {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.container,
+.container-lg {
+  max-width: 1057px;
+}
+
+.container-wide {
+  // margin: 30px;
+  max-width: 1245px;
+}
+
+.container-wide,
+.container-xl {
+  max-width: 1245px;
+}
+
+.container--center {
+  margin: 0 auto;
+}
+
+.pass-field-width{
+  width: 100%;
+}

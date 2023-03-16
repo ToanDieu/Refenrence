@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BaseListPage /> should render and match the snapshot 1`] = `
+.emotion-3 {
+  padding: 47px 20px 93px 20px;
+  max-width: 1245px;
+  margin: auto;
+  min-height: calc(100vh - 156px);
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+
+.emotion-2 {
+  background-color: #fff;
+  border-radius: 2px;
+  text-align: left;
+  font-size: 15px;
+  width: 100%;
+}
+
+.emotion-2 thead th {
+  border-bottom: 1px solid #e8e6e2;
+  padding: 26px 14px 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.emotion-2 tbody tr:nth-child(odd) {
+  background-color: #fafaf9;
+}
+
+.emotion-2 td {
+  padding: 18px;
+  vertical-align: middle;
+}
+
+.emotion-2 td:nth-child(1) {
+  width: 250px;
+}
+
+.emotion-2 td:nth-child(2) {
+  width: 100px;
+}
+
+.emotion-2 td:nth-child(3) {
+  width: 220px;
+}
+
+.emotion-2 td:nth-child(5),
+.emotion-2 td:nth-child(6) {
+  padding-left: 0;
+  width: 24px;
+}
+
+<article
+  class="emotion-3"
+>
+  <div
+    class="emotion-1"
+  >
+    <h1
+      class="emotion-0"
+    >
+      Bases
+    </h1>
+    <div>
+      <div
+        class="el-dropdown"
+      >
+        <span
+          class="el-dropdown-link"
+        >
+          <img
+            class="icon-img--24 el-icon-caret-bottom el-icon--right"
+            src="IMAGE_MOCK"
+          />
+        </span>
+        <ul
+          class="el-dropdown-menu"
+          style="display: none;"
+        >
+          <li
+            class="el-dropdown-menu__item"
+          >
+            <div
+              class=""
+            >
+              All
+            </div>
+          </li>
+          <div
+            class=""
+          />
+        </ul>
+      </div>
+    </div>
+  </div>
+  <table
+    class="emotion-2"
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Code
+        </th>
+        <th>
+          Updated
+        </th>
+        <th />
+        <th />
+        <th />
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</article>
+`;
+
+exports[`<BaseListPage /> should render and match the snapshot on loading 1`] = `
+.emotion-2 {
+  padding: 47px 20px 93px 20px;
+  max-width: 1245px;
+  margin: auto;
+  min-height: calc(100vh - 156px);
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+
+<article
+  class="emotion-2"
+>
+  <div
+    class="emotion-1"
+  >
+    <h1
+      class="emotion-0"
+    >
+      Bases
+    </h1>
+    <div>
+      <div
+        class="el-dropdown"
+      >
+        <span
+          class="el-dropdown-link"
+        >
+          <img
+            class="icon-img--24 el-icon-caret-bottom el-icon--right"
+            src="IMAGE_MOCK"
+          />
+        </span>
+        <ul
+          class="el-dropdown-menu"
+          style="display: none;"
+        >
+          <li
+            class="el-dropdown-menu__item"
+          >
+            <div
+              class=""
+            >
+              All
+            </div>
+          </li>
+          <div
+            class=""
+          />
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    class="spinner-wrapper"
+  >
+    <div
+      class="spinner__dots spinner--row"
+    >
+      <div
+        class="bounce1"
+      />
+      <div
+        class="bounce2"
+      />
+      <div
+        class="bounce3"
+      />
+    </div>
+  </div>
+</article>
+`;

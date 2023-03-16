@@ -1,0 +1,415 @@
+.panel-item {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+
+  &:nth-child(odd) {
+    background-color: $silver-gray;
+  }
+
+  &__title {
+    color: $vin-blue;
+    font-size: 12px;
+  }
+
+  &__value {
+    color: $dark-blue;
+    font-size: 20px;
+
+    &--positive {
+      color: #a5cd73;
+      font-size: 15px;
+    }
+
+    &--negative {
+      color: $vin-orange;
+      font-size: 15px;
+    }
+  }
+}
+
+// new table
+.table {
+  background-color: white;
+}
+
+.ID {
+  font-size: 15px;
+  @extend %title--small;
+  word-wrap: break-word;
+  display: inline-block;
+  width: 135px;
+}
+
+.status {
+  color: $dark-blue;
+  white-space: nowrap;
+}
+
+.license-plate {
+  color: $dark-blue;
+  word-wrap: break-word;
+  display: inline-block;
+  width: 150px;
+}
+
+.is-register {
+  color: $dark-blue;
+}
+
+.phone {
+  color: $dark-blue;
+}
+
+.issuer-name {
+  color: $dark-blue;
+  word-wrap: break-word;
+  display: inline-block;
+  width: 170px;
+}
+
+.created-by {
+  color: $dark-blue;
+}
+
+.view {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.table__body {
+  position: relative;
+}
+
+.table__title {
+  padding: 20px 0px 16px 20px;
+  font-size: 20px;
+  border-bottom: 1px solid $border-color;
+  color: $dark-blue;
+}
+
+.table--default {
+  border-radius: 2px;
+  text-align: left;
+  width: 100%;
+  color: $vin-blue;
+  font-size: 15px;
+
+  td {
+    padding: $padding-td-row;
+    vertical-align: middle;
+  }
+
+  td.fb-alternativeId {
+    width: 140px;
+    font-weight: 500;
+    color: $dark-blue;
+  }
+
+  td.fb-time {
+    width: 210px;
+    color: $dark-blue;
+  }
+
+  .rating-stars {
+    padding-left: 3px;
+    width: 22px;
+    height: 22px;
+  }
+
+  a {
+    color: $vin-blue;
+  }
+
+  a.fb-alternativeId {
+    color: $vin-orange;
+    text-decoration: underline;
+  }
+}
+
+.table--large-row {
+  border-radius: 2px;
+  text-align: left;
+  width: 100%;
+  color: $vin-blue;
+  font-size: 15px;
+
+  td {
+    padding: $padding-td-row--large;
+    vertical-align: middle;
+  }
+
+  a {
+    color: $vin-blue;
+  }
+}
+
+.table__row {
+  &:nth-child(odd) {
+    background-color: $table-row-odd;
+  }
+}
+
+.table__head th {
+  white-space: nowrap;
+  border-bottom: $border-default;
+  padding: $padding-td-min;
+  font-family: $default-family;
+  font-size: 15px;
+  @extend %title--small;
+}
+
+.list__head {
+  border-bottom: $border-default;
+  padding: $padding-td-default;
+  font-family: $default-family;
+  font-size: 15px;
+  @extend %title--small;
+}
+
+.memo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.memo__content {
+  @extend %title--td;
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.table-row__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.table-row__button {
+  width: 80px;
+  height: 30px;
+  margin-left: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.table-row__big-button {
+  height: 30px;
+  margin-left: 18px;
+  padding: 0 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.card-time {
+  display: flex;
+  align-items: center;
+  background: $white;
+  padding: 26px 27px 22px 27px;
+}
+
+.card-time__icon {
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  margin-right: 23px;
+}
+
+.card-time__time {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.card-time__time__hour {
+  color: $vin-orange;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.card-time__time__day {
+  font-size: 15px;
+  color: $dark-blue;
+}
+
+.list__item {
+  background: white;
+  border-bottom: $border-default;
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.list__item--default {
+  padding: 15px 25px;
+}
+
+.list__item--large {
+  padding: 25px 25px;
+}
+
+.list-horizontal {
+  padding: 15px 0;
+  background: $white;
+
+  >div {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.list-horizontal__item {
+  padding: 0 25px;
+  height: 52px;
+  width: 295px;
+  border-right: $border-default;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  >div {
+    display: inline-block;
+  }
+
+  .boxed-title {
+    padding-bottom: 2px;
+  }
+}
+
+.card-graph {
+  width: 885px;
+  background-color: $white;
+
+  .recharts-wrapper {
+    margin: auto;
+  }
+}
+
+.card-graph__title {
+  padding: 18px 22px;
+  border-bottom: $border-default;
+  color: $dark-blue;
+  font-size: 20px;
+}
+
+.card-graph__title-non-border {
+  padding: 18px 22px;
+  color: $dark-blue;
+  font-size: 20px;
+  margin: 12px;
+}
+
+.card-graph__content {
+  padding: 36px 28px 30px 33px;
+
+  .xAxis .recharts-cartesian-axis-tick {
+    color: $dark-blue;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .yAxis .recharts-cartesian-axis-tick {
+    color: $dark-blue;
+    font-size: 14px;
+  }
+}
+
+.card-graph__contentpiechart {
+  padding: 36px 28px 30px 33px;
+
+
+  .xAxis .recharts-cartesian-axis-tick {
+    color: $dark-blue;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .yAxis .recharts-cartesian-axis-tick {
+    color: $dark-blue;
+    font-size: 14px;
+  }
+}
+
+.blue-rectangle {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: $vin-blue;
+}
+
+.green-rectangle {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: $light-green;
+}
+
+.red-rectangle {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: $vin-red;
+}
+
+.black-rectangle {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #000000;
+}
+
+.card-graph__title__tooltip {
+  float: right;
+
+  span {
+    font-size: 15px;
+    vertical-align: middle;
+  }
+
+  div {
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+}
+
+.progress-wrapper {
+  display: inline-block;
+  float: right;
+  text-align: right;
+
+  .value {
+    font-size: 15px;
+    color: $dark-blue;
+    margin-bottom: 4px;
+  }
+}
+
+.progress-bar {
+  width: 115px;
+  height: 8px;
+  border: 1px solid $vin-blue;
+  border-radius: 4px;
+  background-color: $white;
+
+  .progress {
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: $light-green;
+    height: 8px;
+    border-bottom: 1px solid $light-green;
+    border-left: 1px solid $light-green;
+    border-right: 4px solid $light-green;
+    border-radius: 4px 0 0 4px;
+    max-width: 115px;
+  }
+}

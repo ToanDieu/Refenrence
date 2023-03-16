@@ -1,0 +1,58 @@
+.page {
+  //overflow: hidden;
+  overflow: initial
+}
+//clearfix
+.page::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.page__title {
+  @extend %title;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 20px;
+  justify-content: space-between;
+
+  & a {
+    color: $title-color;
+  }
+
+  & .active-part {
+    color: $vin-orange;
+    text-decoration: underline;
+  }
+
+  &-info {
+    font-size: 15px;
+    line-height: 2;
+    color: $secondary;
+    opacity: 0.5;
+  }
+
+  &-count {
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: $secondary;
+  }
+}
+
+.page-title {
+  @extend .page__title;
+}
+
+.page-title-info {
+  @extend .page__title-info;
+}
+
+.page-title-count {
+  @extend .page__title-count;
+}

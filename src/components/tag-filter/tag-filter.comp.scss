@@ -1,0 +1,21 @@
+.container {
+  :global(.el-dropdown-menu) {
+    width: 230px;
+  }
+}
+
+.all-item {
+  border-style: solid;
+  border-bottom-width: 2px;
+}
+
+.tags {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.button {
+  color: #f08262;
+  font-size: 18px;
+  cursor: pointer;
+}

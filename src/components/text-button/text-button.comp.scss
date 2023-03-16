@@ -1,0 +1,35 @@
+@import "~@/assets/style/default/_variables.scss";
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 5px 10px;
+  height: 40px;
+
+  cursor: pointer;
+
+  .button-label {
+    // remove browser render text margin bottom 2px
+    margin-top: 2px;
+    margin-right: 7px;
+
+    line-height: 1;
+
+    // text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    color: $vin-blue;
+  }
+
+  &:hover .button-label {
+    color: $vin-orange;
+  }
+
+  .button-icon {
+    display: block;
+
+    height: 22px;
+    width: 22px;
+  }
+}

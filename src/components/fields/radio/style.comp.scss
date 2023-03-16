@@ -1,0 +1,30 @@
+@import "~@/assets/style/default/variables";
+
+.horizontal {
+  white-space: nowrap;
+  > div {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+}
+
+.text {
+  font-weight: bold;
+}
+
+$color-names: (
+  dark-violet: $dark-violet,
+  dark-pink: $dark-pink
+);
+
+@each $color-name, $color-value in $color-names {
+  .text.selected.background--#{$color-name} {
+    background-color: $color-value;
+    color: $white;
+  }
+}
+
+.text.default {
+  background-color: $light-gray;
+  color: $bluey-gray;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7,13.1666667 C10.405756,13.1666667 13.1666667,10.405756 13.1666667,7 C13.1666667,3.59424404 10.405756,0.833333333 7,0.833333333 C3.59424404,0.833333333 0.833333333,3.59424404 0.833333333,7 C0.833333333,10.405756 3.59424404,13.1666667 7,13.1666667 Z" id="Oval" stroke="#515356" fill="#FFFFFF"></path>
+        <polygon id="Shape" fill="#131313" fill-rule="nonzero" points="7.39999978 10.9999998 6.59999975 10.9999998 6.59999975 5.44444444 7.39999978 5.44444444"></polygon>
+        <rect id="Rectangle" fill="#131313" fill-rule="nonzero" x="6.6" y="3.66666667" width="1" height="1" rx="0.4"></rect>
+    </g>
+</svg>
+
+

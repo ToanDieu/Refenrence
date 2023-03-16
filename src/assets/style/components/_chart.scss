@@ -1,0 +1,21 @@
+.chart-template-analytic {
+  background-color: $orient;
+  .recharts-default-tooltip {
+    background-color: $vin-blue !important;
+  }
+  .recharts-reference-line {
+    .recharts-label {
+      tspan {
+        fill: $white;
+      }
+    }
+  }
+}
+
+.carg-graph-stackedbarchart .recharts-legend-wrapper {
+  bottom: 30px !important;
+}
+
+.card-graph_barchart .recharts-legend-wrapper {
+  bottom: -15px !important;
+}

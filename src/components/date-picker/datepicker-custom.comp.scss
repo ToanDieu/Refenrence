@@ -1,0 +1,17 @@
+.container {
+  :global(.el-input) {
+    font-size: 15px;
+    width: auto !important;
+  }
+
+  :global(.el-input__inner) {
+    background: none;
+    border: none;
+    color: #1e5a6e;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+    width: 115px;
+    text-decoration: underline;
+  }
+}

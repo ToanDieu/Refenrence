@@ -1,0 +1,68 @@
+@import "../../assets/style/default/variables";
+
+.modal {
+    position: fixed;
+    z-index: 10;
+    margin: auto;
+    height: 100%;
+    overflow: auto;
+    outline: none;
+}
+
+.modal--full {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    margin-bottom: 30px;
+    display: block;
+    background-color: $white;
+}
+
+.content {
+    margin-bottom: 30px;
+    display: block;
+    background-color: $white;
+}
+
+.content--modal {
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    right: 0;
+    margin: 100px auto;
+    width: 600px;
+    min-height: 350px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.title {
+    padding: 20px 26px 19px 50px;
+    border-bottom: 1px solid $border-color;
+    line-height: 24px;
+    font-size: 20px;
+    color: $dark-blue;
+    text-transform: uppercase;
+  
+    >div {
+      display: inline;
+    }
+}
+
+.tab {
+    padding: 20px 50px 20px 50px;
+    line-height: 24px;
+    font-size: 15px;
+    color: $dark-blue;
+    text-transform: uppercase;
+}
+
+
+.title__close {
+    float: right;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+:global(.table--default) {
+  .icon-col {
+    width: 24px;
+    padding-right: 18px;
+    padding-left: 0px;
+    img {
+      margin: 0;
+    }
+  }
+
+  .updated-col {
+    width: 220px;
+  }
+
+  .code-col {
+    width: 100px;
+  }
+
+  .name-col {
+    width: 250px;
+  }
+}
+
+.container {
+  .base-name--current {
+    color: #f08262;
+  }
+}

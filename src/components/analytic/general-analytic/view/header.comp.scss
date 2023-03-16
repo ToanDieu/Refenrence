@@ -1,0 +1,66 @@
+@import "~@/assets/style/default/variables";
+
+.container {
+  padding: 0px;
+
+  :global(.el-button) {
+    padding: 16px 30px;
+
+    color: #1e5a6e;
+    border: none;
+    border-radius: 0px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      border: none;
+      color: $vin-orange;
+    }
+  }
+
+  .export-button {
+    padding: 0px;
+  }
+}
+
+.text {
+  font-weight: bold;
+  border: none;
+  margin-right: 0;
+}
+
+.selected {
+  color: $vin-orange;
+}
+
+.selected span {
+  color: $vin-orange;
+}
+
+.area {
+  background-color: $white;
+
+  :global(.el-button) {
+    padding: 16px 30px;
+
+    color: #1e5a6e;
+    border: none;
+    border-radius: 0px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      border: none;
+      color: $vin-orange;
+    }
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.sort-icon {
+  position: relative;
+  top: 5px;
+}

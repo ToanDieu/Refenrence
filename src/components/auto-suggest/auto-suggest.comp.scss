@@ -1,0 +1,22 @@
+.container {
+  // positions
+  margin-top: -15px;
+  // shapes
+  width: 230px;
+  // decorations
+  border: 1px solid #7f9ba6;
+  border-radius: 4px;
+  background-color: white;
+
+  :global(.el-input__inner) {
+    border: none;
+    border-radius: 4px;
+  }
+
+  .suggests {
+    .selectable {
+      max-height: 200px;
+      overflow: scroll;
+    }
+  }
+}

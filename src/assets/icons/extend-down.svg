@@ -1,0 +1,14 @@
+<svg width="11" height="6" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Extend down</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4180 4365)">
+<g id="Extend down">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(4181 -4364)" fill="#789CA8"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 4.7 3.89999L 4.38071 4.28477L 4.7 4.54971L 5.01929 4.28477L 4.7 3.89999ZM 9.08066 -0.384756L 4.38071 3.51521L 5.01929 4.28477L 9.71924 0.384805L 9.08066 -0.384756ZM 5.01929 3.51521L 0.319335 -0.384756L -0.319238 0.384805L 4.38071 4.28477L 5.01929 3.51521Z"/>
+</defs>
+</svg>

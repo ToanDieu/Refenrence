@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
+
+    <title>-g-ic-box-check</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Box-Check" transform="translate(-1.000000, -1.000000)">
+            <g id="-g-ic-box-check">
+                <rect id="bound" x="0" y="0" width="24" height="24"/>
+                <g id="Group" transform="translate(1.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#789CA8" x="0" y="0" width="22" height="22" rx="1"/>
+                    <path d="M19.4781431,5.10395382 C19.339538,4.96534873 19.1155011,4.96534873 18.9768961,5.10395382 L8.23836871,15.8424812 L3.6052009,11.2093134 C3.4665958,11.0707083 3.24255892,11.0707083 3.10395382,11.2093134 C2.96534873,11.3479185 2.96534873,11.5719553 3.10395382,11.7105604 L7.98774517,16.5943518 C8.05687047,16.6634771 8.14761959,16.698217 8.23836871,16.698217 C8.32911782,16.698217 8.41986694,16.6634771 8.48899224,16.5943518 L19.4781431,5.6052009 C19.6167482,5.4665958 19.6167482,5.24255892 19.4781431,5.10395382 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

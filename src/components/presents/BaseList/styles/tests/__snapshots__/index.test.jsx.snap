@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BaseList /> styles should render <ActionLink /> and match the snapshot 1`] = `
+<a
+  class="emotion-0"
+  href="/"
+>
+  Action Link
+</a>
+`;
+
+exports[`<BaseList /> styles should render <ActionLink /> and match the snapshot 2`] = `
+.emotion-0 {
+  background-color: #fff;
+  border-radius: 2px;
+  text-align: left;
+  font-size: 15px;
+  width: 100%;
+}
+
+.emotion-0 thead th {
+  border-bottom: 1px solid #e8e6e2;
+  padding: 26px 14px 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.emotion-0 tbody tr:nth-child(odd) {
+  background-color: #fafaf9;
+}
+
+.emotion-0 td {
+  padding: 18px;
+  vertical-align: middle;
+}
+
+.emotion-0 td:nth-child(1) {
+  width: 250px;
+}
+
+.emotion-0 td:nth-child(2) {
+  width: 100px;
+}
+
+.emotion-0 td:nth-child(3) {
+  width: 220px;
+}
+
+.emotion-0 td:nth-child(5),
+.emotion-0 td:nth-child(6) {
+  padding-left: 0;
+  width: 24px;
+}
+
+<table
+  class="emotion-0"
+>
+  <thead>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        2
+      </td>
+      <td>
+        3
+      </td>
+      <td>
+        4
+      </td>
+      <td>
+        5
+      </td>
+      <td>
+        6
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        2
+      </td>
+      <td>
+        3
+      </td>
+      <td>
+        4
+      </td>
+      <td>
+        5
+      </td>
+      <td>
+        6
+      </td>
+    </tr>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        2
+      </td>
+      <td>
+        3
+      </td>
+      <td>
+        4
+      </td>
+      <td>
+        5
+      </td>
+      <td>
+        6
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`<BaseList /> styles should render and match the snapshot 1`] = `
+.emotion-0 h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.emotion-0 span {
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+<a
+  class="emotion-0"
+  href="/"
+>
+  Memo Link
+</a>
+`;

@@ -1,0 +1,60 @@
+.button-group {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  overflow: hidden;
+  align-items: center;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  p {
+    margin: 0 10px;
+    color: #485d6a;
+    font-size: 14px;
+    font-family: Gotham;
+    text-align: left;
+  }
+  @media only screen and (max-width: 570px) {
+    p {
+      margin: 0;
+    }
+  }
+}
+.timezone {
+  padding: 15px;
+  font-size: 110%;
+}
+
+.error-holder,
+.create-case-form :global(.el-form-item__error) {
+  color: #ee5151;
+  font-size: 14px;
+  margin-bottom: -20px;
+  line-height: 25px;
+}
+.create-case-form :global(.el-form-item__error) {
+  position: static;
+}
+
+.description {
+  font-size: 90%;
+  padding: 5px;
+  text-transform: none;
+}
+
+.input-time {
+  [class*="-InputTime"] {
+    margin-top: 0;
+  }
+  [class*="-InputTime"] > input {
+    height: 50px;
+  }
+}
+
+.boolean-dropdown > span {
+  height: 50px;
+  border: 1px solid #b7c9d4;
+  border-bottom: 1px solid #b7c9d4;
+}

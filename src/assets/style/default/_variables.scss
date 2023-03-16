@@ -1,0 +1,84 @@
+/* Variables */
+$vin-blue: #789ca8;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+$vin-orange: #f08262;
+$light-green: #a5cd73;
+$black: #000000;
+$white: #ffffff;
+$light-gray: #f6f5f4;
+$silver-gray: #fafaf9;
+$bluey-gray: #a7bec6;
+$dark-blue: #1e5a6e;
+$orient: #225b6c;
+$gray: #b2b2b2;
+$medium-gray: #c4c4c4;
+$warm-gray: #7f7f7f;
+$dark-violet: #6C5B7C;
+$dark-pink: #C5798E;
+
+$primary: $dark-blue;
+$secondary: $vin-blue;
+
+$positive: $vin-green;
+$negative: $vin-orange;
+
+$border-color: #e8e6e2;
+$border-default: solid #e8e6e2 1px;
+$table-row-odd: $silver-gray;
+
+$num-of-columns: 10;
+
+$body-background: $light-gray;
+$row-color: $dark-blue;
+$menu-item: $vin-blue;
+$active-item: $vin-orange;
+$title-color: $dark-blue;
+$input-border-color: $gray;
+$dark-panel: $silver-gray;
+
+$default-family: "Gotham", sans-serif;
+
+$base-spacing: 6px;
+
+// $padding-td-default: 26px 28px 19px 28px;
+// $padding-td-row: 18px 28px 18px 28px;
+// $padding-td-row--large: 26px 25px 22px 30px;
+$padding-td-min: 26px 14px 19px 14px; 
+$padding-td-default: 26px 18px 19px 18px;
+$padding-td-row: 18px 18px 18px 18px;
+$padding-td-row--large: 26px 15px 22px 20px;
+$padding-td-min-15: 15px 15px 15px 15px;
+
+%title {
+  font-family: $default-family;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: $title-color;
+}
+
+%title--small {
+  font-family: $default-family;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: $title-color;
+}
+
+%title--td {
+  font-family: $default-family;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $title-color;
+}

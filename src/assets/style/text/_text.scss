@@ -1,0 +1,119 @@
+.sub-title {
+  color: $secondary;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.boxed-title {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: $dark-blue;
+  width: 137px;
+  white-space: normal;
+}
+
+.boxed-small-title {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: $dark-blue;
+  width: 0px;
+  white-space: normal;
+}
+
+.boxed-small-button {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: $dark-blue;
+  width: 40px;
+  white-space: normal;
+}
+
+.select-form {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: $dark-blue;
+  width: 110px;
+  white-space: normal;
+  margin-left: 5px;
+}
+
+.analytic-figure {
+  width: 92px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  display: inline-block;
+}
+
+.analytic-figure-time {
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: right;
+  color: $vin-orange;
+  white-space: nowrap;
+  span {
+    color: $dark-blue;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: -5px;
+  }
+}
+
+.analytic-input {
+  margin-left: 15px;
+}
+
+.feedback-text {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: $primary;
+}
+
+.feedback-comment {
+  font-size: 15px;
+  padding: 17px 20px;
+  margin-top: 19px;
+  background-color: $silver-gray;
+  @extend %title--td;
+}
+
+.capitalizes__first-letter{
+  text-transform: capitalize;
+}
+
+.capitalizes__all-letter{
+  text-transform: uppercase;
+}

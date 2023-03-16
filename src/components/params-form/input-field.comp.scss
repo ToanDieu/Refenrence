@@ -1,0 +1,56 @@
+@import "../../assets/style/default/variables";
+
+.label {
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+// some adjust field
+.label--adjust {
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  font-size: 12px;
+  color: $vin-blue;
+  align-items: center;
+}
+
+:global([class^="input-field-comp__input--default"]) {
+  :global(.el-input__inner) {
+    border: none;
+    height: 50px;
+    border: 1px solid $input-border-color;
+    font-size: 15px !important;
+    color: $warm-gray;
+
+    &::placeholder {
+      color: $medium-gray;
+    }
+  }
+  :global(.el-input__inner::-ms-clear) {
+    display: none;
+  }
+  :global(.el-input__inner::-ms-reveal) {
+    display: none;
+  }
+  :global(.el-textarea) {
+    height: inherit;
+  }
+  :global(.el-textarea__inner) {
+    height: inherit;
+    border: 1px solid #b2b2b2;
+    font-size: 15px !important;
+    color: #7f7f7f;
+  }
+}
+
+.input--default {
+  height: 50px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.input-disable {
+  background-color: #f6f5f4;
+}

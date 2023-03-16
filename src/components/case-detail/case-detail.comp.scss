@@ -1,0 +1,17 @@
+.header {
+  .title-wrapper {
+    float: left;
+  }
+
+  .action-panel {
+    float: right;
+  }
+
+  &:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}

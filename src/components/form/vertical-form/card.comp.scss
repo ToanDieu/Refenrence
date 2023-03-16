@@ -1,0 +1,67 @@
+@import "~@/assets/style/default/variables";
+
+@mixin create-col-layout($name, $distance) {
+    display: flex;
+  
+    #{$name}-col {
+      margin-left: $distance;
+      width: 100%;
+    }
+  
+    #{$name}-col:first-child {
+      margin-left: 0px;
+    }
+  
+    #{$name}-col--4 {
+      flex-grow: 4;
+    }
+  
+    #{$name}-col--5 {
+      flex-grow: 5;
+    }
+  }
+
+.body {
+    position: relative;
+    @include create-col-layout(#{&}, 50px);
+    padding: 20px 0 20px 0;
+}
+.body-col{
+    width: 100%;
+}
+
+.body--form {
+    padding: 27px 50px 56px 50px;
+}
+
+.field {
+    display: block;
+
+    &:not(:last-of-type) {
+      margin-bottom: 27px;
+    }
+}
+
+.footer {
+    padding: 20px;
+    border-top: 1px solid #e8e6e2;
+    justify-content: space-between;
+}
+.footer--form {
+    position: relative;
+    padding: 25px 50px 23px 50px;
+}
+.footer--create-user {
+    position: absolute;
+    right: 0;
+}
+
+// circle spinner
+.loader-spinner {
+    width: 40px;
+    height: 40px;
+    border: 6px solid $warm-gray; /* Light grey */
+    border-top: 6px solid $vin-blue; /* Blue */
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+  }

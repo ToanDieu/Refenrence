@@ -1,0 +1,45 @@
+@import "~@/assets/style/default/variables";
+$border-color: rgb(228, 228, 228);
+
+.container {
+  //   padding: 15px;
+  background-color: white;
+  * {
+    font-family: inherit;
+  }
+
+  .head {
+    padding: 10px 0px;
+    .label {
+      font-size: 13px;
+      font-weight: 600;
+      color: #7f9ba6;
+    }
+
+    .clear-btn {
+      float: right;
+      margin-top: 2px;
+      padding: 0px;
+      font-size: 12px;
+      line-height: 13px;
+      font-weight: 500;
+      color: $vin-orange;
+    }
+  }
+
+  .parts {
+    .part {
+      padding-top: 5px;
+      border-top: 1px solid $border-color;
+      color: $dark-blue;
+    }
+
+    .part:first-child {
+      border-top: none;
+    }
+  }
+
+  .adder-btn {
+    color: rgb(135, 135, 135);
+  }
+}

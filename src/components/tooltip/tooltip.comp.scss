@@ -1,0 +1,45 @@
+@import "~@/assets/style/default/variables";
+
+.container.overide {
+  margin-left: 5px;
+
+  :global(.el-tooltip__popper.is-dark) {
+    text-transform: none;
+    background-color: $dark-blue;
+    color: $light-gray;
+    display: block;
+    max-width: 450px;
+  }
+
+  :global(.popper__arrow){
+    border-bottom-color: $dark-blue;
+  }
+
+  :global(.popper__arrow::after){
+    border-top-color: $dark-blue !important;
+    border-bottom-color: $dark-blue !important;
+  }
+
+  :global(.tooltip__dt) {
+    font-weight: bolder;
+  }
+
+  :global(.tooltip__hr) {
+    height: 1px;
+    color: $bluey-gray;
+  }
+
+  :global(.tooltip__icon) {
+    cursor: help;
+    color: $active-item;
+    width: 15px;
+  }
+
+  :global(.tooltip__icon-bg) {
+    cursor: help;
+    color: $active-item;
+    width: 25px;
+    max-width: unset !important;
+  }
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>-g-ic-circle-edit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Circle-Edit" transform="translate(-1.000000, -1.000000)">
+            <g id="-g-ic-circle-edit">
+                <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z" id="Combined-Shape" fill="#789CA8" fill-rule="nonzero"></path>
+                <path d="M15.3328486,10.3712187 L14.5546469,11.1494205 L12.8505795,9.44535314 L13.6287813,8.66715138 L15.3328486,10.3712187 Z M7.62056727,13.8971636 L14.5177309,7 L17,9.48226909 L10.1028364,16.3794327 L7,17 L7.62056727,13.8971636 Z M8.63438957,14.4397449 L8.40292318,15.5970768 L9.56025514,15.3656104 L15.4435965,9.48226909 L14.5177309,8.55640352 L8.63438957,14.4397449 Z" id="Shape" fill="#789CA8" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

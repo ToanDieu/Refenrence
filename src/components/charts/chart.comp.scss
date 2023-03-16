@@ -1,0 +1,33 @@
+@import "../../assets/style/default/variables";
+.content {
+    padding: 20px;
+    .xAxis .recharts-cartesian-axis-tick {
+        font-weight: 500;
+        font-size: 13px;
+        color: $dark-blue;
+        text-transform: uppercase;
+    }
+  
+    .yAxis .recharts-cartesian-axis-tick {
+        font-size: 14px;
+        color: $dark-blue;
+    }
+
+    :global(.recharts-surface){
+        overflow: overlay;
+    } 
+
+    .grap-content {
+        margin-top : 10px;
+    }
+      
+}
+
+.title-non-border {
+    padding: 18px 0;
+    margin: 35px;
+    font-size: 20px;
+    color: $dark-blue;
+}
+
+

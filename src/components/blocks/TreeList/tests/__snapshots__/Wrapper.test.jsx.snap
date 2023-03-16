@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Wrapper /> should match styles in snapshot 1`] = `
+.emotion-0 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.emotion-0 ul li {
+  position: relative;
+}
+
+.emotion-0 ul ul {
+  padding-top: 15px;
+}
+
+.emotion-0 ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 0.5px);
+  border-left: 1px solid #000;
+  height: 15px;
+}
+
+.emotion-0 ul ul li {
+  padding-top: 15px;
+}
+
+.emotion-0 ul ul li::before,
+.emotion-0 ul ul li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: calc(50% - 0.5px);
+  border-top: 1px solid #000;
+  width: calc(50% + 0.5px);
+  height: 15px;
+}
+
+.emotion-0 ul ul li::after {
+  right: auto;
+  left: calc(50% - 0.5px);
+  border-left: 1px solid #000;
+}
+
+.emotion-0 ul ul li:first-of-type::before,
+.emotion-0 ul ul li:last-of-type::after {
+  display: none;
+}
+
+.emotion-0 ul ul li:last-of-type::before {
+  border-right: 1px solid #000;
+}
+
+.emotion-0 ul ul li:only-of-type::before {
+  display: block;
+  border: none;
+  left: calc(50% - 0.5px);
+  border-left: 1px solid #000;
+}
+
+<div
+  class="emotion-0"
+/>
+`;
+
+exports[`<Wrapper /> should match styles in snapshot with different props 1`] = `
+.emotion-0 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.emotion-0 ul li {
+  position: relative;
+}
+
+.emotion-0 ul ul {
+  padding-top: 8px;
+}
+
+.emotion-0 ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 1.5px);
+  border-left: 3px solid #000;
+  height: 8px;
+}
+
+.emotion-0 ul ul li {
+  padding-top: 8px;
+}
+
+.emotion-0 ul ul li::before,
+.emotion-0 ul ul li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: calc(50% - 1.5px);
+  border-top: 3px solid #000;
+  width: calc(50% + 1.5px);
+  height: 8px;
+}
+
+.emotion-0 ul ul li::after {
+  right: auto;
+  left: calc(50% - 1.5px);
+  border-left: 3px solid #000;
+}
+
+.emotion-0 ul ul li:first-of-type::before,
+.emotion-0 ul ul li:last-of-type::after {
+  display: none;
+}
+
+.emotion-0 ul ul li:last-of-type::before {
+  border-right: 3px solid #000;
+}
+
+.emotion-0 ul ul li:only-of-type::before {
+  display: block;
+  border: none;
+  left: calc(50% - 1.5px);
+  border-left: 3px solid #000;
+}
+
+<div
+  class="emotion-0"
+/>
+`;

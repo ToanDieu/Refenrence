@@ -1,0 +1,86 @@
+{
+  "receivedPass": 35119,
+  "receivedPassTarget": 40000,
+  "clickedSMS": 14473,
+  "clickedSMSTarget": 30000,
+  "previewedPass": 10582,
+  "previewedPassTarget": 10582,
+  "addedPass": 8009,
+  "addedPassTarget": 10000,
+  "unsubscribedPass": 3345,
+  "textMessageEngagementTime": 73,
+  "passRegisteredCompletionTime": 14.5,
+  "ratingFormResponseTime": 3.2,
+  "registrationData": [
+    {
+      "timestamp": "2017-09-11T00:00:00Z",
+      "sent": 5,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-12T00:00:00Z",
+      "sent": 4,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-13T00:00:00Z",
+      "sent": 7,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-14T00:00:00Z",
+      "sent": 7,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-16T00:00:00Z",
+      "sent": 4,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-17T00:00:00Z",
+      "sent": 1,
+      "registered": 2
+    },
+    {
+      "timestamp": "2017-09-19T00:00:00Z",
+      "sent": 5,
+      "registered": 4
+    },
+    {
+      "timestamp": "2017-09-20T00:00:00Z",
+      "sent": 2,
+      "registered": 10
+    },
+    {
+      "timestamp": "2017-09-21T00:00:00Z",
+      "sent": 2,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-22T00:00:00Z",
+      "sent": 1,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-23T00:00:00Z",
+      "sent": 3,
+      "registered": 3
+    },
+    {
+      "timestamp": "2017-09-24T00:00:00Z",
+      "sent": 4,
+      "registered": 1
+    },
+    {
+      "timestamp": "2017-09-27T00:00:00Z",
+      "sent": 1,
+      "registered": 4
+    },
+    {
+      "timestamp": "2017-09-28T00:00:00Z",
+      "sent": 1,
+      "registered": 2
+    }
+  ]
+}

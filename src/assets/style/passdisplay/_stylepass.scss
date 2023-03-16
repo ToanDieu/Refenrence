@@ -1,0 +1,491 @@
+// #appleDisplay.pass .content .pass-value--#{foregroundColor} {color: #{foregroundColor}}
+// #appleDisplay.pass .content .pass-value--#{foregroundColor}:after {content: ''; color:  #{foregroundColor} }
+// #appleDisplay.pass .content .pass-label--#{labelColor} {color: #{labelColor} }
+// #appleDisplay.pass .content--#{backgroundColor} {background-color: #{backgroundColor} }
+
+// Cant find any where use below style
+// #appleDisplay .boardingIcon path {fill: {{$ctrl.passData.labelColor}} }
+
+// #appleDisplay .primary-strip-img.show-img--#{urlstrip} {background-image: url(#{urlstrip}) }
+// #appleDisplay.pass-eventTicket .content--#{bgColor}:before{background: #{bgColor};}
+// .content--#{bgColor}:before, .content--#{bgColor}:after {
+//     background: linear-gradient(-45deg, transparent 10px, #{bgColor} 0),
+//                 linear-gradient(45deg, transparent 10px, #{bgColor} 0);
+//             }
+// #appleDisplay.pass-boardingPass .pass-header {position: relative;}
+// #appleDisplay.pass-boardingPass .pass-header--#{bgColor}:before, #appleDisplay.pass-boardingPass .pass-header--#{bgColor}:after{
+//     content: " ";
+//     background-color: #{bgColor};
+//     height: 10px;
+//     width: 10px;
+//     position: absolute;
+//     bottom: -10px;
+//     border-radius: 100%;
+// }
+// #appleDisplay.pass-boardingPass .pass-header:before{left: -15px;right: auto;}
+// #appleDisplay.pass-boardingPass .pass-header:after{left: auto;right: -15px;}
+
+
+@font-face {
+  font-family: HelveticaNeueW01-Thin;
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix);
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix) format("eot"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff) format("woff"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf) format("truetype"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3) format("svg");
+}
+
+
+@font-face {
+  font-family: HelveticaNeueW01-45Ligh;
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix);
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix) format("eot"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff) format("woff"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf) format("truetype"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format("svg");
+}
+
+
+@font-face {
+  font-family: HelveticaNeueW01-55Roma;
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix);
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix) format("eot"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff) format("woff"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf) format("truetype"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9) format("svg");
+}
+
+
+@font-face {
+  font-family: HelveticaNeueW01-55Roma;
+  font-weight: 700;
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix);
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix) format("eot"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff) format("woff"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf) format("truetype"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5) format("svg");
+}
+
+
+@font-face {
+  font-family: HelveticaNeueW01-75Bold;
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix);
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix) format("eot"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff) format("woff"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf) format("truetype"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568) format("svg");
+}
+
+
+@font-face {
+  font-family: HelveticaNeueW01-65Medi;
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix);
+  src: url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix) format("eot"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff) format("woff"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf) format("truetype"), url(https://d1ye292yvr7tf6.cloudfront.net/css/Fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5) format("svg");
+}
+
+
+.pk-apple-pass {
+  display: block;
+  text-align: initial;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  #appleDisplay {
+    width: 270px;
+    margin: auto;
+    perspective: 600px;
+    a {
+      cursor: pointer;
+    }
+    .row {
+      margin: 0 !important;
+    }
+    img {
+      max-width: 100%;
+    }
+    .paddingInsteadOfAltText {
+      margin-top: 6px;
+    }
+    .content {
+      border-radius: 5px;
+    }
+    &.pass-boardingPass .content {
+      background-image: none !important;
+    }
+    &.pass-eventTicket .content {
+      z-index: 1;
+      border-radius: 0;
+      &:after {
+        z-index: -1;
+        content: ' ';
+        display: block;
+        width: 100%;
+        height: 100%;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        background-image: inherit;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+      }
+      &:before {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        content: ' ';
+        width: 50px;
+        height: 30px;
+        margin-left: -25px;
+        border-bottom-left-radius: 57%;
+        border-bottom-right-radius: 57%;
+        background-color: $light-gray;
+        z-index: 2;
+      }
+    }
+    &.pass-membership .content, &.pass-storeCard .content {
+      background-image: none !important;
+    }
+    &.pass-coupon .content {
+      border-radius: 0;
+      background-image: none !important;
+      &:after, &:before {
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        background-size: 10px 10px;
+        content: " ";
+        display: block;
+        position: absolute;
+        top: -5px;
+        left: 0;
+        width: 100%;
+        height: 15px;
+      }
+      &:after {
+        transform: rotateX(180deg);
+        top: auto;
+        bottom: -5px;
+      }
+    }
+    .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .row {
+      padding: 0;
+      margin: 0;
+    }
+    .content {
+      .back {
+        border-radius: 5px;
+        margin: 20px 0;
+        padding: 10px;
+        height: 462px;
+        font-size: 13px;
+        .content-inner {
+          background: #f5f5f5;
+          border: 1px solid #dcdcdc;
+          border-radius: 5px;
+          margin: 5px -5px;
+          overflow-y: scroll;
+          height: calc(450px - 30px);
+        }
+        .app {
+          background: #fff;
+          padding: 10px;
+          font-size: 10px;
+          img {
+            max-width: 36px;
+            height: auto;
+            margin-right: 12px;
+          }
+          .info {
+            width: 135px;
+          }
+          .change {
+            cursor: pointer;
+            color: #3599db;
+            line-height: 40px;
+            font-size: 12px;
+          }
+        }
+        .row.mock-ios {
+          background: #fff;
+          padding: 10px;
+        }
+        hr {
+          margin-top: 30px;
+          margin-bottom: -10px;
+        }
+        p {
+          margin: 0;
+        }
+        .spacer {
+          padding: 5px 10px 20px 5px;
+          border-top: 1px solid #dcdcdc;
+          border-bottom: 1px solid #dcdcdc;
+        }
+        .back-field {
+          background: #fff;
+          padding: 10px;
+          &:hover {
+            background: #FFF9E6;
+          }
+          .pass-label {
+            display: block;
+            font-size: 10px;
+            color: #000 !important;
+          }
+          .pass-value {
+            color: #000 !important;
+            font-size: 12px;
+          }
+          &:last-child hr {
+            display: none;
+          }
+        }
+      }
+      .front {
+        margin: 20px 0;
+        position: relative;
+        height: 462px;
+        padding: 10px;
+        border-radius: 5px;
+        background-size: cover;
+        .field-group {
+          float: left;
+        }
+        .field .field-wrapper {
+          display: block;
+          max-width: 100%;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          > * {
+            display: block;
+            max-width: 100%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+        }
+        .pass-label {
+          font-size: 10px;
+          font-weight: 500;
+          display: block;
+          margin: 0;
+          line-height: 12px;
+        }
+        .pass-header, .primary, .secondary {
+          margin-bottom: 15px;
+        }
+        .pass-value {
+          font-size: 13px;
+        }
+        .logo-text {
+          font-size: 12px;
+          font-weight: 600;
+        }
+        .pass-header {
+          .image {
+            float: left;
+            display: block;
+            margin-right: 10px;
+            img {
+              height: 43px;
+              width: auto;
+            }
+          }
+          .logo .pass-value {
+            display: block;
+            min-height: 43px;
+            line-height: 43px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            font-size: 18px;
+          }
+          .field span {
+            font-size: 14px;
+          }
+        }
+        .primary-strip-img {
+          width: 269px;
+          padding: 0 10px;
+          margin-left: -10px;
+          &.show-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+          }
+          &.event {
+            height: calc(270px * 168/640);
+          }
+          &.normal {
+            height: calc(270px * 246/640);
+          }
+        }
+        .primary {
+          .pass-value {
+            font-size: 30px;
+            font-weight: 300;
+          }
+          &.primary-strip .pass-value {
+            font-size: 58px;
+            line-height: 60px;
+            font-weight: 100;
+            color: #fff;
+          }
+          &.primary-boarding .pass-value {
+            font-weight: 100;
+          }
+          .secondary {
+            i {
+              right: -107px;
+            }
+            .pass-value {
+              font-size: 13px;
+            }
+          }
+          .image img {
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        .auxiliary {
+          margin-bottom: 15px;
+          border: 1px solid transparent;
+        }
+      }
+    }
+    .expired .barcodeRow .barcodeContainer img {
+      opacity: .1;
+    }
+    .barcodeRow {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 10px;
+      .barcodeContainer {
+        padding: 10px 10px 2px;
+        background-color: #fff;
+        border-radius: 5px;
+        color: #000;
+        img {
+          width: 100%;
+        }
+      }
+      .text {
+        margin-top: 2px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      img.footer {
+        max-height: 11.33px;
+        max-width: 216px;
+      }
+    }
+    .info-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      font-size: 10px;
+    }
+    .event-ticket-style {
+      input[type=radio], label {
+        line-height: 34px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+    .pass-field {
+      width: 450px;
+    }
+  }
+}
+
+@media print {
+  .pk-apple-pass #appleDisplay {
+    .no-print {
+      display: none !important;
+    }
+    width: 100% !important;
+    .displayHide {
+      display: block !important;
+    }
+    .content-inner {
+      overflow-y: visible !important;
+      border: none !important;
+    }
+    .front .pass-header {
+      margin-bottom: 0 !important;
+    }
+    .back, .back-field, .content-inner, .front {
+      margin: 0 !important;
+      padding: 0 !important;
+      height: auto !important;
+    }
+    .field {
+      padding-top: 5px !important;
+      width: 100% !important;
+      label {
+        width: 20% !important;
+        font-weight: 500 !important;
+      }
+      span {
+        width: 80% !important;
+        font-weight: 400 !important;
+      }
+      label, span {
+        float: left !important;
+        font-size: small !important;
+        text-overflow: initial !important;
+        white-space: normal !important;
+        overflow: initial !important;
+      }
+    }
+    .barcode-section .barcodeRow {
+      position: relative !important;
+    }
+    .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .field-group {
+      width: 100% !important;
+    }
+    .text-center, .text-right, label, span {
+      text-align: left !important;
+    }
+    .primary-strip-img, button {
+      display: none !important;
+    }
+  }
+}
+
+@media screen {
+  .pk-apple-pass #appleDisplay .displayHide {
+    display: none !important;
+  }
+}
+
+.pass-reivew--tooltip{
+  position: absolute;
+  white-space: nowrap;
+  font-family: $default-family;
+  font-weight: 400;
+}
+
+.pass-reivew--tooltip-content{
+  white-space: normal;
+  width: 300px;
+}
+
+.pass-reivew--tooltip-front{
+  right: 0px;
+  display: inline;
+}
+.pass-reivew--tooltip-back{
+  right: 20px;
+  bottom: 380px;
+  z-index: 4000;
+}
+
+.pass-review--tabs{
+  position: absolute;
+  margin-top: -40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  span {
+    margin-right: 20px;
+    font-family: $default-family;
+    font-weight: 400;
+    font-size: 20px;
+    color: $dark-blue;
+  }
+  span.selected{
+    color: $vin-orange;
+  }
+}

@@ -1,0 +1,38 @@
+$border-color: rgb(235, 235, 235);
+
+.container {
+  & :global(.el-checkbox) {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    padding: 10px 0px;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    :global(.el-checkbox__label) {
+      padding-left: 0px;
+    }
+
+    :global(.el-checkbox__inner) {
+      margin-top: 2px;
+
+      width: 20px;
+      height: 20px;
+
+      &::after {
+        left: 6px;
+
+        height: 10px;
+      }
+    }
+  }
+
+  & :global(.el-checkbox + .el-checkbox) {
+    margin-left: 0px;
+  }
+}

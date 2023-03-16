@@ -1,0 +1,9 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+      "react/jsx-filename-extension": "off",
+      "import/extensions": "off"
+  }
+}

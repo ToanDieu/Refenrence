@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/ic-circle-success</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z M17.6546083,7.11674265 L10.5614116,15.0965313 L6.28814016,11.6780064 C6.08968388,11.5187799 5.79846082,11.5515483 5.6396958,11.7500045 C5.48046925,11.9493839 5.51277608,12.2396839 5.71169389,12.3989104 L10.3269563,16.0911203 C10.4118771,16.1589647 10.5138744,16.1921946 10.6154102,16.1921946 C10.7427914,16.1921946 10.8697111,16.1395806 10.9606318,16.0371218 L18.3450516,7.7296495 C18.5144317,7.53950069 18.4973552,7.24735458 18.3067449,7.07843598 C18.115673,6.90859432 17.82445,6.92567079 17.6546083,7.11674265 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/ic-circle-success" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-g-ic-circle-success">
+            <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#A5CD73" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

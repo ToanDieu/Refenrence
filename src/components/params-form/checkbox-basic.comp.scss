@@ -1,0 +1,30 @@
+@import "../../assets/style/default/variables";
+
+.wrapper {
+  display: block;
+  .label {
+    height: 17px;
+    text-transform: uppercase;
+  }
+  img,
+  span {
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  // some adjust field
+  .label--adjust {
+    position: relative;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 12px;
+    color: $vin-blue;
+    align-items: center;
+  }
+  span {
+    font-family: inherit;
+    font-size: 15px;
+    color: $dark-blue;
+    padding-left: 5px;
+  }
+}

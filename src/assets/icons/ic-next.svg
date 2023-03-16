@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>-g-ic-next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Next" transform="translate(-6.000000, -2.000000)">
+            <g id="-g-ic-next">
+                <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                <g id="arrows-left" transform="translate(6.000000, 2.000000)" fill="#789CA8" fill-rule="nonzero">
+                    <polygon id="Shape" transform="translate(6.000000, 10.000000) rotate(180.000000) translate(-6.000000, -10.000000) " points="2.07603151 10 11.5 18.7228497 10.742247 19.5 0.898470692 10.3885752 0.5 10 0.898470692 9.61142483 10.742247 0.5 11.5 1.27715033"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

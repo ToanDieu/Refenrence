@@ -1,0 +1,7 @@
+$positions: (relative, absolute, fixed, initial, inherit);
+
+@each $position in $positions {
+  .u-position--#{$position} {
+    position: $position !important;
+  }
+}

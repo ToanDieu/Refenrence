@@ -1,0 +1,26 @@
+%container {
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.container {
+  @extend %container;
+
+  font-size: 15px;
+  &:nth-child(odd) {
+    background-color: #fafaf9;
+  }
+
+  &:hover {
+    background-color: #cecece;
+  }
+}
+
+.container-new {
+  @extend %container;
+}
+
+.btn-new-tag-label {
+  color: #f08263;
+}

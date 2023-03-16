@@ -1,0 +1,16 @@
+@import "../../assets/style/default/variables";
+
+.list-horizontal {
+    padding: 15px 0;
+    background: $white;
+  
+    > div {
+      display: inline-flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
+
+.input {
+    margin-left: 15px;
+}

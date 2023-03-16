@@ -1,0 +1,81 @@
+@import "../analytic.comp.scss";
+@import "~@/assets/style/default/variables";
+
+:global(.analytic__submit-form__element).button-min{
+    padding: $padding-td-min-15;
+}
+
+.right-align {
+    float: right;
+}
+
+.button{
+    padding: 0 10px 10px 5px;
+}
+
+.list-horizontal__item {
+    padding: 0 25px;
+    height: 52px;
+    border-right: $border-default;
+  
+    &:last-child {
+      border-right: none;
+    }
+  
+    > div {
+      display: inline-block;
+    }
+  
+    .boxed-title {
+      padding-bottom: 2px;
+    }
+}
+
+.search__filter {
+    cursor: pointer;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    span {
+      color: $vin-blue;
+      font-family: Gotham;
+      font-size: 15px;
+      font-weight: 500;
+      float: left;
+      text-transform: uppercase;
+    }
+    div {
+        color: $vin-blue;
+        font-family: Gotham;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    img {
+      display: block;
+      margin-top: 6px;
+      margin-left: 10px;
+      float: left;
+    }
+}
+.text {
+    color: $vin-orange;
+    line-height: 40px;
+    font-family: Gotham;
+    font-size: 15px;
+    font-weight: 500;
+    float: left;
+    text-transform: uppercase;
+}
+
+.list-options {
+      padding: 0 10px 9px 10px;
+}
+
+.tag-item{
+    padding: 0 5px 0 5px;
+    font-size: 25px;
+    color: $vin-orange;
+    cursor: pointer;
+}
+

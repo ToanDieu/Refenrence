@@ -1,0 +1,17 @@
+%dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.dot-active {
+    @extend %dot;
+    background-color: #a5cd73;
+}
+
+.dot-blocked {
+    @extend %dot;
+    background-color: #e8e6e2;
+}
